@@ -1,11 +1,11 @@
 import React from "react";
 import "../assets/css/Pirate.css";
 
-function Pirate(props) {
+function Pirate({ name, tagline }) {
   return (
     <section>
-        <h3>{props.name}</h3>
-      <p>Favorite saying: {props.tagline}</p>
+      <h3>{name}</h3>
+      <p>Favorite saying: {tagline}</p>
     </section>
   );
 }
