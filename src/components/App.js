@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 import Pirate from "./Pirate";
 import piratesFile from "../data/sample-pirates-array";
-import avatar from "../assets/img/avatar.png";
 
 const pirateCalls = [
   "Aaarg, belay that!",

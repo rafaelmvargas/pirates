@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/css/Pirate.css";
+import avatar from "../assets/img/avatar.png";
+
 
 function Pirate(props) {
   return (
