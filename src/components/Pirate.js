@@ -2,14 +2,13 @@ import React from "react";
 import "../assets/css/Pirate.css";
 import avatar from "../assets/img/avatar.png";
 
-function Pirate(props) {
-  const { name, year, weapon, vessel, description } = props.pirate;
-  const { tagline } = props;
+function Pirate({ pirate, tagline }) {
+  const { name, year, weapon, vessel, description, image } = pirate;
 
   return (
     <section>
       <summary>
-        <img src={avatar} alt="pirate" />
+        <img src={`../assets/img/${image}`} alt="pirate" />
         <h3>{name}</h3>
         <ul>
           <li>Died: {year}</li>
