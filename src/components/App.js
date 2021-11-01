@@ -17,7 +17,6 @@ function App() {
   return (
     <div>
       <Header title={randomize()} />
-      {/* <Pirate tagline="Ahoy from the Pirate Component" /> */}
       <div className="pirate">
         {piratesFile.map((pirate) => (
           <Pirate tagline={randomize()} pirate={pirate} />
