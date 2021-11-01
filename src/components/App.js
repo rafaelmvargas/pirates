@@ -20,7 +20,7 @@ function App() {
       {/* <Pirate tagline="Ahoy from the Pirate Component" /> */}
       <div className="pirate">
         {piratesFile.map((pirate) => (
-          <Pirate tagline={randomize()} name={pirate.name} />
+          <Pirate tagline={randomize()} pirate={pirate} />
         ))}
       </div>
     </div>
