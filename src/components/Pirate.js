@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/Pirate.css";
-import avatar from "../assets/img/avatar.png";
+// import avatar from "../assets/img/avatar.png";
 
 function Pirate({ pirate, tagline }) {
   const { name, year, weapon, vessel, description, image } = pirate;
