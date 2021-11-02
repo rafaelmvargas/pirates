@@ -14,7 +14,7 @@ function randomize() {
 }
 
 function App() {
-  const [pirates, setPirates] = React.useState(piratesFile);
+  // const [pirates, setPirates] = React.useState(piratesFile);
   return (
     <div>
       <Header title={randomize()} />
